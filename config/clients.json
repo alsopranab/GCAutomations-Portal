@@ -1,24 +1,31 @@
 {
-    "clients":[
-        {
-            "id":"jaypore",
-            "name":"Jaypore",
-            "password":"Jay123",
-            "data":"./data/Jaypore.json"
-        },
+"clients":[
 
-        {
-            "id":"ssl",
-            "name":"SSL",
-            "password":"SSL123",
-            "data":"./data/SSL.json"
-        },
+{
+"id":"jaypore",
 
-        {
-            "id":"sandn",
-            "name":"SandN",
-            "password":"Sand123",
-            "data":"./data/SandN.json"
-        }
-    ]
+"name":"Jaypore",
+
+"password":"Jay@7812",
+
+"dashboard":
+
+"https://github.com/alsopranab/GCAutomations/blob/main/Jaypore/Jaypore_Dashboard.html"
+
+},
+
+{
+"id":"ssl",
+
+"name":"SSL",
+
+"password":"SSL#9215",
+
+"dashboard":
+
+"https://github.com/alsopranab/GCAutomations/blob/main/SSL/SSL_Dashboard.html"
+
+}
+
+]
 }
