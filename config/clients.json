@@ -1,0 +1,24 @@
+{
+    "clients":[
+        {
+            "id":"jaypore",
+            "name":"Jaypore",
+            "password":"Jay123",
+            "data":"./data/Jaypore.json"
+        },
+
+        {
+            "id":"ssl",
+            "name":"SSL",
+            "password":"SSL123",
+            "data":"./data/SSL.json"
+        },
+
+        {
+            "id":"sandn",
+            "name":"SandN",
+            "password":"Sand123",
+            "data":"./data/SandN.json"
+        }
+    ]
+}
