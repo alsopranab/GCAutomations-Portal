@@ -1,0 +1,196 @@
+
+
+<html>
+
+<head>
+
+<style>
+
+body{
+
+font-family:Segoe UI;
+
+background:#F3F5F9;
+
+padding:25px;
+
+}
+
+.title{
+
+background:#0B2341;
+
+color:white;
+
+padding:12px;
+
+font-size:22px;
+
+font-weight:bold;
+
+text-align:center;
+
+}
+
+.sub{
+
+background:#D9EAF7;
+
+padding:8px;
+
+text-align:center;
+
+}
+
+table{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+th{
+
+background:#1F4E79;
+
+color:white;
+
+padding:10px;
+
+}
+
+td{
+
+border:1px solid #ddd;
+
+padding:8px;
+
+text-align:center;
+
+}
+
+.button{
+
+background:#0B2341;
+
+padding:12px;
+
+border-radius:8px;
+
+color:white;
+
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>
+
+Goldratt Consulting
+
+</h1>
+
+<h3>
+
+Jaypore Inventory Reconciliation Dashboard
+
+</h3>
+
+
+
+    <div class='dash'>
+
+    <div class='title'>
+
+    Jaypore | Unique Keys - Status vs MTS
+
+    </div>
+
+    <div class='sub'>
+
+    Business reconciliation between Status and MTS
+
+    </div>
+
+    <table>
+
+    <tr>
+
+    <th>Category</th><th>No. Rows in Status_File</th><th>Match Status</th><th>Inv Status</th><th>Site Inv in MTS</th><th>Site Inv in Status</th><th>Transit Inv in MTS</th><th>Transit Inv in Status</th>
+
+    </tr>
+
+    <tr><td>In Both Files</td><td>3,132</td><td>Match</td><td>Inv At Site>0 & Inv At Trnst > 0</td><td>69,116</td><td>68,601</td><td>71,494</td><td>71,037</td></tr><tr><td>In Both Files</td><td>0</td><td>Match</td><td>Inv At Site>0 & Inv At Trnst <= 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>In Both Files</td><td>2,680</td><td>Match</td><td>Inv At Site<=0 & Inv At Trnst > 0</td><td>0</td><td>0</td><td>11,759</td><td>12,103</td></tr><tr><td>In Both Files</td><td>9,669</td><td>Match</td><td>Inv At Site=0 & Inv At Trnst <= 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>In Both Files</td><td>0</td><td>Match</td><td>Inv At Site<0 & Inv At Trnst = 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Stock Location not in Stock Location Master</td><td>23</td><td>Not in MTS</td><td>Inv At Site>0 & Inv At Trnst > 0</td><td>0</td><td>140</td><td>0</td><td>140</td></tr><tr><td>Total</td><td>15,504</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+
+    </table>
+
+    </div>
+
+    
+
+<br><br>
+
+
+
+    <div class='dash'>
+
+    <div class='title'>
+
+    Jaypore | Unique Keys - MTS vs Status
+
+    </div>
+
+    <div class='sub'>
+
+    Business reconciliation between MTS and Status
+
+    </div>
+
+    <table>
+
+    <tr>
+
+    <th>Category</th><th>No. of Rows in MTS File</th><th>Match Status</th><th>Inv Status</th><th>Site Inv in MTS</th><th>Site Inv in Status</th><th>Transit Inv in MTS</th><th>Transit Inv in Status</th>
+
+    </tr>
+
+    <tr><td>In Both Files</td><td>3,148</td><td>Match</td><td>Inv At Site>0 & Inv At Trnst > 0</td><td>69,116</td><td>68,601</td><td>71,494</td><td>71,037</td></tr><tr><td>In Both Files</td><td>0</td><td>Match</td><td>Inv At Site>0 & Inv At Trnst <= 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>In Both Files</td><td>2,507</td><td>Match</td><td>Inv At Site<=0 & Inv At Trnst > 0</td><td>0</td><td>0</td><td>11,759</td><td>12,103</td></tr><tr><td>In Both Files</td><td>9,826</td><td>Match</td><td>Inv At Site=0 & Inv At Trnst <= 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>In Both Files</td><td>0</td><td>Match</td><td>Inv At Site<0 & Inv At Trnst = 0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Stock Location not in Stock Location Master</td><td>1,472,274</td><td>Not in Status</td><td>Inv At Site>0 & Inv At Trnst > 0</td><td>240,742</td><td>0</td><td>10,819</td><td>0</td></tr><tr><td>Total</td><td>1,487,755</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+
+    </table>
+
+    </div>
+
+    
+
+<br><br>
+
+<a
+class='button'
+href='https://github.com/alsopranab/GCAutomations/blob/main/Jaypore/Jaypore_Inventory_Reconciliation_Report.xlsx'
+>
+
+Download Reconciliation
+
+</a>
+
+&nbsp;
+
+<a
+class='button'
+href='https://github.com/alsopranab/GCAutomations/blob/main/Jaypore/Jaypore_Business_Summary.xlsx'
+>
+
+Download Business Summary
+
+</a>
+
+</body>
+
+</html>
+
